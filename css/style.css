@@ -213,3 +213,29 @@
   transform: scale(0.9);
   transition: 0.6s;
 }
+
+#btn{
+  background-color: rgb(0, 0, 0);
+  border: none;
+  color: white;
+  padding: none;
+  width: 35px;
+  height: 30px;
+  position: fixed;
+  font-size: 30px;
+  font-weight: 600;
+  right: 1090;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  border-radius: 16px;
+}
+#btn:hover{
+  transition: 0.3s;
+  cursor: pointer;
+  background-color: #184ce6;
+}
+
+.hide{
+  display: none;
+}
