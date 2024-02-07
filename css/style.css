@@ -1,0 +1,215 @@
+*{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: "Gill Sans;";
+}
+
+#particles-js{
+      width: 100%;
+      height: 200vh;
+      background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,1) 100%);
+      text-align: center;
+}
+
+.serv:hover{
+  text-decoration: underline;
+}
+
+.head{
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 200;
+  font-family: sans-serif;
+  color: azure;
+  position: absolute;
+  left: 40%;
+}
+
+.head:hover{
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.navbar {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+#Abd:hover{
+  cursor: pointer;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #00e2ff;
+  text-decoration: underline;;
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+
+.logo {
+  float: left;
+}
+
+.logo:hover{
+  transition: 0.6s;
+  transform: scale(1.1);
+  color: blue;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px; /* Adjust height as needed */
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Clear floats after the navbar */
+.navbar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.VPN{
+  position: absolute;
+  left: 45%;
+  top: 5%;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 227px 0px;
+}
+.VPN h3{
+  color: white;
+  font-size: 25px;
+}
+
+.VPN h3:hover{
+  cursor: pointer;
+}
+
+.VPN:hover{
+  border: 6px solid aqua;
+  border-radius: 100px ;
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+.VPN image{
+  width: 100%;
+  height: 100%;
+}
+
+.DB{
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 227px 0px;
+}
+
+.DB h3{
+  color: white;
+  font-size: 25px;
+}
+
+.DB h3:hover{
+  cursor: pointer;
+}
+
+.DB:hover{
+  border: 6px solid aqua;
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+.DB image{
+  width: 100%;
+  height: 100%;
+}
+
+.serv{
+      cursor: pointer;
+}
+
+.serv:hover{
+  text-decoration: revert;
+}
+
+
+.AI{
+  position: absolute;
+  left: 45%;
+  top: 90%;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: transparent;
+  margin: 227px 0px;
+}
+.AI h3{
+  color: white;
+  font-size: 25px;
+}
+
+.AI h3:hover{
+  cursor: pointer;
+}
+
+.AI:hover{
+  border: 6px solid aqua;
+  transition: 0.6s;
+  transform: scale(1.1);
+}
+.AI image{
+  width: 100%;
+  height: 100%;
+}
+
+#about{
+  background: radial-gradient(circle, rgba(28,42,113,1) 68%, rgba(63,94,251,1) 89%, rgba(0,0,0,1) 100%);
+  text-align: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#about img{
+  background-color: black;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  bottom: 10%;
+}
+
+#about img:hover{
+  border: 2px solid aqua;
+  transition: 0.6s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#about p{
+  color: white;
+  margin: 4px;
+}
+#about p:hover{
+  transform: scale(0.9);
+  transition: 0.6s;
+}
